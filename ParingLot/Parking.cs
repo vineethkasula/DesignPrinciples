@@ -9,7 +9,7 @@ public class ParkingLot {
     public ParkingLot(int num, int slt) {
         MAX_FLOOR = num;
         MAX_SLOT = slt;
-    }
+    } 
 
     public static void AddFloors() {
         for(int i = 0; i < MAX_FLOOR; i++){
